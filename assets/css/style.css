@@ -20,10 +20,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* Alternate color in Horiseon name in the header */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Navigation bar in the top right */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +34,7 @@ header nav {
     font-size: 20px;
 }
 
+/* No markings before navigation list */
 header nav ul {
     list-style-type: none;
 }
@@ -50,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* Large picture configuration near the top */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +73,35 @@ p {
     margin-left: 25px;
 }
 
+/* Main horizontal tiles on the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Main horizontal tiles on the page */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Smaller images on the horizontal tiles */
+.content img {
+    max-height: 200px;
+}
+
+/* Headers in the horizontal tiles */
+.content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sidebar elements */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,38 +113,23 @@ p {
     background-color: #2589bd;
 }
 
+ /* Sidebar headers */
+ .benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sidebar elements */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Sidebar images */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2{
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
